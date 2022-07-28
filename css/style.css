@@ -395,7 +395,7 @@ tr {
     padding: 25px 0;
     letter-spacing: -0.3px;
 }
-.footer__end-content h4 {
+.footer__end-content span {
     float: left;
 }
 .footer__end-content a {
