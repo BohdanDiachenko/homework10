@@ -5,20 +5,336 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="wrapper">
-        <header>
-
+        <header id="header">
+            <div class="header__panel">
+                <div class="container">
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Вопрос - ответ</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container">
+                    <a href="#" class="logo"><img src="image/logo.svg" alt="BEAUTY"></a>
+                    <div class="header__main-box">
+                        <a href="tel:88121234567" class="tel">8 (812) 123-45-67</a>
+                        <a href="#" class="header__main-btn btn">Обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bar">
+                <div class="container">
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Парикмахерская</a></li>
+                            <li><a href="#">Барбершоп</a></li>
+                            <li><a href="#">Маникюр</a></li>
+                            <li><a href="#">Педикюр</a></li>
+                            <li><a href="#">Массаж</a></li>
+                            <li><a href="#">Мебель</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
         <main>
-
-        </main>
-        <footer>
-
+            <section class="hero__section">
+                <div class="container">
+                    <div class="hero__section-box">
+                        <h1 class="hero__section-title">Супер кресло</h1>
+                        <p>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+                        <a href="#" class="hero__section-btn btn">Подробнее</a>   
+                    </div>
+                </div>
+            </section>
+            <section class="section__product">
+                <div class="container">
+                    <h2>Специальные предложения</h2>
+                    <ul class="product__cards">
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                    </ul>   
+                </div>
+            </section>
+            <section class="section__shop-promotion">
+                <div class="container">
+                    <ul class="shop__promotion-cards">
+                        <li>
+                            <div class="promotion__cards-box">
+                                <div class="shop__promotion-content content__one">
+                                    <h3>Получайте бонусы и подарки</h3>
+                                    <p>Каждый месяц разыгрываем <br> 10 000 рублей для наших клиентов</p>
+                                    <input id="email" type="email" placeholder="Введите e-mail">
+                                </div>
+                                <div class="shop__promotion-img img__one">
+                                    <img src="image/mail.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="promotion__cards-box">
+                                <div class="shop__promotion-content content__two">
+                                    <h3>Заходите к нам</h3>
+                                    <p>Более 300 магазинов по всей России</p>
+                                    <a href="#" class="shop__promotion-btn btn">Карта магазинов</a>   
+                                </div>
+                                <div class="shop__promotion-img img__two">
+                                    <img src="image/car.svg" alt="">
+                                </div>
+                            </div>
+                        </li>   
+                    </ul>
+                </div>
+            </section>
+            <div class="section__brends">
+                <div class="container">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>
+                            <td>
+                                <img src="image/brend.png" alt="brend">
+                            </td>  
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <section class="section__product section__product__two ">
+                <div class="container">
+                    <h2>Вы недавно смотрели</h2>
+                    <ul class="product__cards">
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product__card-content">
+                                <a href="#" class="card__visual">
+                                    <img src="image/chair.png" alt="chair">
+                                </a>
+                                <h3>Парикмахерское кресло «Норм» гидравлическое</h3>
+                                <p>9 900 ₽ </p>
+                                <a href="#" class="btn">Купить</a>
+                            </div>
+                        </li>
+                    
+                    </ul>   
+                </div>
+            </section>
+        </main>    
+         <footer>
+            <div class="footer__menu">
+                <div class="container">
+                    <ul class="footer__menu-content">
+                        <li>
+                            <div class="footer__menu-titel">
+                                <h3>Популярные категории</h3>
+                            </div>
+                            <nav>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Насадки</a></li>
+                                    <li><a href="#">Инструменты</a></li>
+                                    <li><a href="#">Гель-лаки</a></li>
+                                    <li><a href="#">Дизайн</a></li>
+                                    <li><a href="#">Наращивание</a></li>
+                                    <li><a href="#">Оборудование</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li>
+                            <div class="footer__menu-titel">
+                                <h3>Популярные категории</h3>
+                            </div>
+                            <nav>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Насадки</a></li>
+                                    <li><a href="#">Инструменты</a></li>
+                                    <li><a href="#">Гель-лаки</a></li>
+                                    <li><a href="#">Дизайн</a></li>
+                                    <li><a href="#">Наращивание</a></li>
+                                    <li><a href="#">Оборудование</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li>
+                            <div class="footer__menu-titel">
+                                <h3>Популярные категории</h3>
+                            </div>
+                            <nav>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Насадки</a></li>
+                                    <li><a href="#">Инструменты</a></li>
+                                    <li><a href="#">Гель-лаки</a></li>
+                                    <li><a href="#">Дизайн</a></li>
+                                    <li><a href="#">Наращивание</a></li>
+                                    <li><a href="#">Оборудование</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li>
+                            <div class="footer__menu-titel">
+                                <h3>Популярные категории</h3>
+                            </div>
+                            <nav>
+                                <ul class="footer__menu-list">
+                                    <li><a href="#">Насадки</a></li>
+                                    <li><a href="#">Инструменты</a></li>
+                                    <li><a href="#">Гель-лаки</a></li>
+                                    <li><a href="#">Дизайн</a></li>
+                                    <li><a href="#">Наращивание</a></li>
+                                    <li><a href="#">Оборудование</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <div class="container">
+                    <ul class="footer__contact-list">
+                        <li class="footer__contact-item">
+                            <a href="#" class="icon-youtube"></a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <a href="#" class="icon-vk"></a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <a href="#" class="icon-facebook"></a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <a href="#" class="icon-instagram"></a>
+                        </li>
+                    </ul>
+                    <div class="footer__main-box header__main-box">
+                        <a href="tel:88121234567" class="tel">8 (812) 123-45-67</a>
+                        <a href="#" class="footer__main-btn">Обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__end">
+                <div class="container">
+                    <div class="footer__end-content">
+                        <h4>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</h4>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
