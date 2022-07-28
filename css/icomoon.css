@@ -35,17 +35,17 @@
 }
 .icon-vk:before {
   content: "\e900";
-  color: #f13c6e;
+  /* color: #f13c6e; */
 }
 .icon-facebook:before {
   content: "\e901";
-  color: #f13c6e;
+  /* color: #f13c6e; */
 }
 .icon-instagram:before {
   content: "\e902";
-  color: #f13c6e;
+  /* color: #f13c6e; */
 }
 .icon-youtube:before {
   content: "\e903";
-  color: #f13c6e;
+  /* color: #f13c6e; */
 }
