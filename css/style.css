@@ -368,10 +368,13 @@ tr {
     overflow: hidden;
     text-align: center;
 }
-.footer__contact-item a:hover,
+/* , */
 .footer__contact-item:hover{
-    color: #fff;
+    /* color: #fff; */
     background-color: #F13C6E;  
+}
+.footer__contact-item a:hover{
+    color: #fff;   
 }
 .footer__main-btn {
     padding-bottom:  10px;
