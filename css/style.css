@@ -309,7 +309,11 @@ tr {
     max-width: 149px;
     min-height: 49px;
     display: block;
-    margin: 0 auto;  
+    margin: 0 auto; 
+    transition: 0.8s; 
+}
+.section__brends img:hover{
+    transform: scale(1.2);
 }
 .footer__menu {
     background-color: #fff;
@@ -367,10 +371,9 @@ tr {
     margin-right: 16px;
     overflow: hidden;
     text-align: center;
+    transition: 0.8s;
 }
-/* , */
 .footer__contact-item:hover{
-    /* color: #fff; */
     background-color: #F13C6E;  
 }
 .footer__contact-item a:hover{
