@@ -93,7 +93,7 @@ img {
 .btn__small {
 padding: 9px 40px;
 }
-.btn__small:hover{
+.btn__small:hover {
    background-color: #fff;
    color: #000;
    border-color: #F13C6E; 
@@ -103,16 +103,16 @@ background-color: #fff;
 border-color: #F13C6E;
 color: #000;
 }
-.btn__white:hover{
+.btn__white:hover {
    background-color: #F13C6E;
    color: #fff; 
 }
-.btn__constant-width{
+.btn__constant-width {
     display: block;
     width: 170px;
     text-align: center;
 }
-.btn__constant-width:hover{
+.btn__constant-width:hover {
     background-color: #fff;
     border-color: #fff;
     color: #F13C6E;
@@ -147,7 +147,7 @@ color: #000;
     background-position: 50% 50%;
     min-height: 604px;
     color: #fff;
-    margin-bottom: 79px;
+    margin-bottom: 81px;
 }
 .hero__section-title {
     font-size: 48px;
@@ -164,7 +164,7 @@ color: #000;
     margin: 0 0 43px;   
 }
 .section__product {
-    margin-bottom: 100px;
+    margin-bottom: 98px;
 }
 .section__product h2 {
     font-size: 24px;
